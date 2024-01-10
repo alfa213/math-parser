@@ -22,5 +22,6 @@
 
     "autoload": {
         "psr-4": {"MathParser\\": "src/MathParser"}
-    }
+    },
+    "version": "1.0.0"
 }
