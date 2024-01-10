@@ -1,0 +1,26 @@
+{
+    "name": "alfa213/math-parser",
+    "description": "Copy repo mossadal/math-parser with lost file MathParser\\Lexing\\Language.php",
+    "keywords": ["parser", "mathematics" ],
+    "homepage": "https://github.com/alfa213/math-parser",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Frank Wikström",
+            "email": "frank@mossadal.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.3.*",
+        "phpunit/php-code-coverage": "6.0.*",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+
+    "autoload": {
+        "psr-4": {"MathParser\\": "src/MathParser"}
+    }
+}
